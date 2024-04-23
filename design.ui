@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>root</class>
+ <widget class="QMainWindow" name="root">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>560</width>
+    <height>670</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>560</width>
+    <height>450</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>560</width>
+    <height>670</height>
+   </size>
+  </property>
+  <property name="cursor">
+   <cursorShape>ArrowCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>false</bool>
+  </property>
+  <property name="windowTitle">
+   <string>BenzConfig</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>:/icon/icon.ico</normaloff>:/icon/icon.ico</iconset>
+  </property>
+  <property name="windowOpacity">
+   <double>1.000000000000000</double>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <property name="documentMode">
+   <bool>false</bool>
+  </property>
+  <property name="tabShape">
+   <enum>QTabWidget::Rounded</enum>
+  </property>
+  <widget class="QWidget" name="grid_w">
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QLineEdit" name="inputSummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="layoutDirection">
+     <enum>Qt::LeftToRight</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="inputMask">
+     <string/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>32767</number>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+    <property name="dragEnabled">
+     <bool>false</bool>
+    </property>
+    <property name="placeholderText">
+     <string>Введите данные</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outSummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>241</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(230, 230, 230, 230);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnSummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>80</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+    <property name="shortcut">
+     <string>Return</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>80</y>
+      <width>241</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Рассчитать</string>
+    </property>
+    <property name="shortcut">
+     <string>Space</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>130</y>
+      <width>241</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(230, 230, 230);</string>
+    </property>
+    <property name="inputMethodHints">
+     <set>Qt::ImhNone</set>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>40</y>
+      <width>241</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="maxLength">
+     <number>10</number>
+    </property>
+    <property name="placeholderText">
+     <string>Введите данные</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_s">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Летний</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lable_w">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>10</y>
+      <width>241</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>Зимний</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnAbout">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>417</y>
+      <width>29</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../BenzConfig 0.9/files.qrc">
+      <normaloff>:/icon/infoMenu.svg</normaloff>:/icon/infoMenu.svg</iconset>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnHelp">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>417</y>
+      <width>30</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../BenzConfig 0.9/files.qrc">
+      <normaloff>:/icon/helpMenu.svg</normaloff>:/icon/helpMenu.svg</iconset>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnGear">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>417</y>
+      <width>30</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="../BenzConfig 0.9/files.qrc">
+      <normaloff>:/icon/gear.png</normaloff>:/icon/gear.png</iconset>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPropSummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>470</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пропорции</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyPropCitySummer">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>490</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNormSummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>570</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Нормы расхода</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyNormHighwaySummer">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>630</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyPropHighwaySummer">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>530</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyNormCitySummer">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>590</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="defis">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>440</y>
+      <width>521</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgba(200, 200, 200, 200);</string>
+    </property>
+    <property name="text">
+     <string>__________________________________________________________________________________________________________</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyNormCityWinter">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>590</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyNormHighwayWinter">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>630</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyPropCityWinter">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>490</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="applyPropHighwayWinter">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>530</y>
+      <width>81</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="cursor">
+     <cursorShape>PointingHandCursor</cursorShape>
+    </property>
+    <property name="text">
+     <string>Применить</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPropWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>470</y>
+      <width>71</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Пропорции</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelNormWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>570</y>
+      <width>91</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Нормы расхода</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputPropCitySummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>491</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Город</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputPropHighwaySummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>530</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Трасса</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputPropCityWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>490</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Город</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputPropHighwayWInter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>530</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Трасса</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNormCitySummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>590</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Город</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNormHighwaySummer">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>630</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Трасса</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNormCityWinter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>590</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Город</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="inputNormHighwayWInter">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>630</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="placeholderText">
+     <string>Трасса</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="../BenzConfig 0.9/files.qrc"/>
+ </resources>
+ <connections/>
+</ui>
