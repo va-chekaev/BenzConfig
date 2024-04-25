@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>helpMenu.svg</file>
+    <file>iconAbout.png</file>
+    <file>IconHelp.png</file>
+    <file>iconMain.ico</file>
+    <file>infoMenu.svg</file>
+  </qresource>
+</RCC>
