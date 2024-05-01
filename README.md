@@ -1,2 +1,2 @@
 # BenzConfig
-version 1.1
+![BenzConfig](https://github.com/va-chekaev/BenzConfig/blob/main/readme/bc_sshot.png)
